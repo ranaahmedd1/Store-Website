@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+
+.form{
+   width: 50%;
+   margin:150px auto ;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   /* background-color: red; */
+  }
+
+  .form input{
+     height:55px;
+
+  }
+
+.form .inputSec{
+      margin: 20px;
+     display: flex;
+     flex-direction: column;
+     gap: 40px; 
+
+}
+  #submit{
+    background-color: #04AA6D; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+table{
+  margin: auto;
+  display: none;
+}
+
+
+table tbody tr,
+ table thead th{
+     padding:10px 20px;
+}
+
+
+  
+
